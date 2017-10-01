@@ -1,0 +1,18 @@
+{
+  "name": "hots_notes",
+  "version": "1.0.0",
+  "description": "Reads HotS Feed, Parses it into JSON for Alexa",
+  "main": "hots_notes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RockPasta",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "collections": "^5.0.7",
+    "express": "^4.16.1",
+    "node-cron": "^1.2.1",
+    "request": "^2.83.0"
+  }
+}
