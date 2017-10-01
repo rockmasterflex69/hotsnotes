@@ -1,0 +1,5 @@
+{
+  "name": "JSON Hots Patch Notes Feed",
+  "description": "A barebones patch feed for HOTS",
+  "image": "heroku/nodejs"
+}

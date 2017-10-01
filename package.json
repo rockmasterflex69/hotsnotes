@@ -2,8 +2,9 @@
   "name": "hots_notes",
   "version": "1.0.0",
   "description": "Reads HotS Feed, Parses it into JSON for Alexa",
-  "main": "hots_notes.js",
+  "main": "index.js",
   "scripts": {
+	"start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "RockPasta",
