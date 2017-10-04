@@ -14,7 +14,7 @@ var dict = new Dict();
 parseFeed();
 //do it once to build dict.
  
-cron.schedule('0 0 */8 * * *', function(){
+cron.schedule('0 0 */1 * * *', function(){
   console.log('running a task every hour');
   parseFeed();
 });
