@@ -55,7 +55,7 @@ function parseFeed(){
 				mainText = mainText.replace("Battleground", ". Battleground: ");
 				mainText = mainText.replace("Play Mode", ". Play Mode: ");
 				mainText = mainText.replace("UI/Hotkey", ". UI and Hotkey: ");
-				mainText = mainText.replace("Reworks", ". Reworks: ");
+				mainText = mainText.replace("Reworks", "");
 				json.uid = uid;
 				json.updateDate = updateDate;
 				json.titleText = titleText;
